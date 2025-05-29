@@ -10,4 +10,63 @@
   --spacing-500: 40px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--slate-300);
+}
+body .container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .container .card {
+  background-color: var(--white);
+  border-radius: 1rem;
+  width: 20rem;
+  height: 31.1875rem;
+  padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
+}
+body .container .card .qr-code {
+  margin-bottom: var(--spacing-300);
+}
+body .container .card .qr-code img {
+  width: 18rem;
+  border-radius: 0.5rem;
+}
+body .container .card .text {
+  padding: 0 var(--spacing-200) 0 var(--spacing-200);
+  text-align: center;
+}
+body .container .card .text .bold-text {
+  color: var(--slate-900);
+  font-size: 1.375rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-200);
+  letter-spacing: 0;
+  line-height: 120%;
+}
+body .container .card .text .light-text {
+  color: var(--slate-500);
+  font-size: 0.9375rem;
+  font-weight: var(--font-weight-regular);
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+body .container .attribution {
+  margin-top: var(--spacing-300);
+}
+body .container .attribution a {
+  text-decoration: none;
+  color: var(--slate-900);
+}
+
 /*# sourceMappingURL=styles.css.map */
