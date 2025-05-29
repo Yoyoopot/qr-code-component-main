@@ -1,3 +1,13 @@
-
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --white: #ffffff;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-500: 40px;
+}
 
 /*# sourceMappingURL=styles.css.map */
